@@ -1,0 +1,89 @@
+1. Introduction to HTML
+
+HTML- is a mark up language
+->HMTL is syntax is used to mark up a document.
+
+1.1 HTML-> to write html, we pick from set of standards elements that all browsers recognized.
+
+->Common elements
+1. <p>  - Paragraphs elements
+2. <img>-embed elements
+3. <form> element - represents a form
+4. <h1> element- represents the main header on page.
+
+1.2 HTML Tags
+->we create elements by writing tags.
+->Most(but not all ) elements consist of an opening and closing tag.
+
+<p>it is paragraph</p>
+
+<p>  ->Opening tag
+</p> ->closing tag
+<h1>HTML tags</h1>
+
+=>Tags
+1. Bold tag
+hi my name is <b>Ashish</b>. I am full stack developer.
+
+->check MDN
+->Element refernce
+
+2. Paragraph tag
+
+->Paragraph take stand alone place.
+->it is block level elements.
+
+<p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam est officia eius veritatis amet recusandae.
+    Consequuntur odit necessitatibus eveniet! Aliquid laudantium quas facere obcaecati sit molestias quae, enim
+    cupiditate esse iste. Voluptatibus earum recusandae iusto necessitatibus at, natus ipsa repellendus a nostrum. Iusto
+    earum culpa sit dolores nulla in itaque.
+</p>
+
+3. Heading tag
+->better to have one h1 tag on page.
+->we should never have h3 without h1 and h2.
+->we should never have h6 without h5, h4, h3, h2 and h1.
+<h1>h1 heading tag</h1>
+->we can use other tags for sub headings.
+h2, h3, h4, h5 and h6.
+
+<h2>Sub Heading 1</h2>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero aliquam repellendus nobis quam ut omnis temporibus
+    placeat perferendis deleniti nihil?</p>
+
+<h3>Sub Heading 2</h3>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure sed eius nam est dolorum optio, amet sapiente beatae
+    rem sit.</p>
+
+
+4. Dummy text
+->use lorem(no. of words)
+eg: Lorem20
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, numquam.</p>
+
+5. HTML Boilerplates-->check next page.
+
+6. VS Code Tip: Auto Format
+->this helps to keep our code clean.
+for formatting whole documenting with good indentation
+->Launch the command palet by using below short cut 
+command palet windows shortcut-> ctrl+shift+p
+command palet Mac shortcut    -> cmd+shift+p
+->search for format document and click on it.
+format document shortcut-> shift+alt+f
+
+alternative
+setting->search format-> check format on save
+
+7. List Element
+->1. Ordered List   -> <ol> tag defines an ordered list
+->2. Unordered List -> <ul> tag defines an unordered (bulleted) list
+
+->3. <li> HTML element
+->li-Listed items 
+->items in list are wirriten in <li> tags.
+->The <li> HTML element is used to represent an item  in a list.
+
+eg:
+<ul>
